@@ -11,7 +11,6 @@
     {
         title: Faker::Quote.famous_last_words,
         description: Faker::Movies::StarWars.quote,
-        user_id: Faker::Number.within(range: 1..5)
    },
 )
 end
